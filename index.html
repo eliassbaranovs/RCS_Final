@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Register/Login</title>
+  </head>
+  <body>
+     <div class="background" id="bg">
+       <div class="buttons" id="buttons">
+         <button class="btn btn1" id="register">Register</button>
+         <button class="btn btn1" id="login">Login</button>
+       </div>
+       <div class="regform" id="regform">
+        <label for="email"><b></b></label>
+        <input type="text" placeholder="Email" name="email" id="email" required>&nbsp;
+      
+        <label for="psw"><b></b></label>
+        <input type="password" placeholder="Password" name="psw" id="psw" required>&nbsp;
+        <button id="reg">Register</button>
+        <button id="switchlog">Login</button>
+      </div>
+      <div class="logon" id="logon">
+        <label for="email"><b></b></label>
+        <input type="text" placeholder="Email" name="email" id="email_l" required>&nbsp;
+      
+        <label for="psw"><b></b></label>
+        <input type="password" placeholder="Password" name="psw" id="psw_l" required>&nbsp;
+        <button id="log">Login</button>
+        <button id="switchreg">Register</button>
+      </div>
+    </div>
+
+
+<script src="app.js"></script>
+  </body>
+</html>
