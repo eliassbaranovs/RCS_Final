@@ -35,7 +35,7 @@ body {
 .btn1:hover,
 .btn2:hover:hover {
   background-color: #ffba08;
-  transition: 1s all ease;
+  transition: all 1s ease;
   color: black;
 }
 
