@@ -82,7 +82,7 @@ include('components/login.php')
   >
     <form method="POST" action="">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="exampleInputEmail1" class="form-label">Username</label>
         <input
           type="text"
           name="username"

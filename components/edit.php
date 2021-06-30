@@ -8,7 +8,6 @@ if(!isset($_SESSION['valid'])) {
 if(isset($_POST['update']))
 {	
     $id = $_POST['id'];
-	
     $name = $_POST['name'];
     $qty = $_POST['qty'];
     $price = $_POST['price'];	

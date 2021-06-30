@@ -8,7 +8,7 @@ if(!isset($_SESSION['valid'])) {
 
 //ID from URL
 $id = $_GET['id'];
-//deleting specific row from table
+//Deleting selected entry
 $result=mysqli_query($mysqli, "DELETE FROM products WHERE id=$id");
 header("Location:../view.php");
 ?>

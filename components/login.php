@@ -3,6 +3,7 @@ session_start();
 include_once('header.php');
 include("connection.php");
 if(isset($_POST['submitlog'])) {
+    //Escapes special characters
     $user = mysqli_real_escape_string($mysqli, $_POST['username']);
     $pass = mysqli_real_escape_string($mysqli, $_POST['password']);
 
